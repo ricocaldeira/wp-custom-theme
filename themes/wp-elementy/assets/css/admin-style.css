@@ -1,0 +1,48 @@
+.img-select li {
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	display: inline-block;
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img-select li:hover,
+.img-select li.active {
+	box-shadow: 1px 1px 6px #ff6d84;
+	cursor: pointer;
+}
+
+.img-select li img {
+	display: block;
+}
+
+body .etabs li.tab a {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-size: 12px;
+}
+
+.menu-item-settings {
+	overflow: hidden;
+}
+
+.cms-highlight-gray {
+	background-color: #C0C0C0;
+	color: #fff;
+}
+
+.cms-highlight-yellow {
+	background-color: #ffea00;
+	color: #2a2b2f;
+	padding: 0 3px;
+}
+
+@media screen and (min-width: 992px) {
+	#opt_theme_options-page_title_style .redux-image-select li,
+	#opt_meta_options-page_title_style .redux-image-select li {
+		width: 48%;
+		margin-left: 5px !important;
+		margin-right: 5px !important;
+	}	
+}

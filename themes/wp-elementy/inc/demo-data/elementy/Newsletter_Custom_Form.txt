@@ -1,0 +1,42 @@
+Form 1
+<form class="cms-newsletter" method="post" onsubmit="return newsletter_check(this)" action="http://tn.joomexp.com/wordpress/wp-elementy/?na=s">
+<input type="hidden" value="widget" name="nr">
+<input type="email" value="Email Address" name="ne" required="" class="newsletter-email">
+<button type="submit" class="newsletter-submit"><i class="icon icon-arrows-slim-right"></i></button>
+</form>
+
+
+Form 2
+<div class="clearfix"><form class="cms-newsletter" method="post" onsubmit="return newsletter_check(this)" action="http://tn.joomexp.com/wordpress/wp-elementy/?na=s">
+<input type="hidden" value="widget" name="nr">
+<input type="email" placeholder="Join newsletter" name="ne" required="" class="newsletter-email">
+<button type="submit" class="newsletter-submit"><i class="icon icon-arrows-slim-right"></i></button>
+</form></div>
+
+Form 3
+<div class="clearfix"><form class="cms-newsletter cms-newsletter-comming2" method="post" onsubmit="return newsletter_check(this)" action="http://tn.joomexp.com/wordpress/wp-elementy/?na=s">
+<input type="hidden" value="widget" name="nr">
+<input type="email" placeholder="Join newsletter" name="ne" required="" class="newsletter-email font-raleway">
+<button type="submit" class="newsletter-submit"><i class="icon icon-arrows-slim-right"></i></button>
+</form></div>
+
+Form 4
+<div class="clearfix"><form class="cms-newsletter custom-for-footer" method="post" onsubmit="return newsletter_check(this)" action="http://tn.joomexp.com/wordpress/wp-elementy/?na=s">
+<input type="hidden" value="widget" name="nr">
+<input type="email" placeholder="Email address" name="ne" required="" class="newsletter-email font-montserrat">
+<button type="submit" class="newsletter-submit"><i class="icon icon-arrows-slim-right"></i></button>
+</form></div>
+
+Form 5
+<div class="clearfix"><form class="cms-newsletter custom-for-footer" method="post" onsubmit="return newsletter_check(this)" action="http://tn.joomexp.com/wordpress/wp-elementy/?na=s">
+<input type="hidden" value="widget" name="nr">
+<input type="email" placeholder="Email address" name="ne" required="" class="newsletter-email font-poppins">
+<button type="submit" class="newsletter-submit"><i class="icon icon-arrows-slim-right"></i></button>
+</form></div>
+
+Form 6
+<div class="clearfix"><form class="cms-newsletter custom-for-footer form-black" method="post" onsubmit="return newsletter_check(this)" action="http://tn.joomexp.com/wordpress/wp-elementy/?na=s">
+<input type="hidden" value="widget" name="nr">
+<input type="email" placeholder="Email address" name="ne" required="" class="newsletter-email font-raleway font-white">
+<button type="submit" class="newsletter-submit"><i class="icon icon-arrows-slim-right"></i></button>
+</form></div>
