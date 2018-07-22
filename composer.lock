@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12709ef47e69594fcde22153da14444e",
+    "content-hash": "944580c800f27a3054ae6877c695f7d6",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1744,6 +1744,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-theme/hueman",
+            "version": "3.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/hueman/",
+                "reference": "3.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hueman.3.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/hueman/"
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
